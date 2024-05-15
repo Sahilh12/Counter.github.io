@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  background: rgb(238, 235, 235);
+  border-bottom: 1px solid black;
+  padding-inline: 20px;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin-inline: auto;
+}
+
+.logo a {
+  margin-right: 10px;
+}
+.fa-brands {
+  font-size: 40px;
+}
+.fa-solid {
+  font-size: 35px;
+}
+.increment-decrement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+}
+.content {
+  text-align: center;
+  padding: 20px;
+}
+.zero {
+  font-size: 70px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input {
+  padding-block: 12px;
+  padding-left: 5px;
+  font-size: large;
+  height: 25px;
+  width: 100px;
+}
+.increment-btn,
+.decrement-btn {
+  font-size: 30px;
+  color: white;
+  background: rgb(96, 95, 95);
+}
+.decrement-btn {
+  padding-inline: 10px;
+}
+
+.text p {
+  font-size: 20px;
+}
+.text {
+  margin-top: 20px;
+}
+.reset-btn {
+  font-size: 25px;
+  color: white;
+  background: rgb(8, 6, 6);
+  border: none;
+  padding: 8px 12px;
+}
+.reset {
+  margin-top: 60px;
+}
+button {
+  /* border: none; */
+  border-radius: 8px;
+  outline: none;
+}
+
+@media (max-width: 500px) {
+  header {
+    padding-inline: 3px;
+  }
+  .fa-brands {
+    font-size: 35px;
+  }
+  .fa-solid {
+    font-size: 30px;
+  }
+  h1 {
+    font-size: 30px;
+    margin-left: 50px;
+  }
+  .zero {
+    font-size: 50px;
+  }
+  .reset-btn {
+    font-size: 20px;
+  }
+  .content {
+    margin-top: 50px;
+  }
+}
